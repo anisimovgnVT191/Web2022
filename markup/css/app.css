@@ -1,0 +1,38 @@
+html, body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header  {
+    background-color: rgb(rgb(38, 0, 255));
+}
+
+header .main-content {
+    display: flex;
+    flex: 0 2 auto;
+}
+
+header .menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    list-style: none;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 45px;
+}
+
+header .search-widget {
+    display: flex;
+}
+
+footer {
+    background-color: #31171e;
+}
